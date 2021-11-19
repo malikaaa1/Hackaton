@@ -166,7 +166,7 @@ const ProductDetails = () => {
               Phone number: {productDetails.phone}
             </Alert>
             {user.email ? (
-              <Link to="/buyProducts">
+              <Link to="/buy">
                 <Button
                   variant="contained"
                   color="success"

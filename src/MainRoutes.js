@@ -38,6 +38,7 @@ import ProductsContextProvider from "./context/ProductContext";
 import Auth from "./Components/Auth/Auth";
 import BuyProducts from "./Components/Buy/BuyProducts";
 import Footer from "./Components/Footer/Footer";
+import Buy from "./Components/Buy/Buy";
 const MainRoutes = () => {
   return (
     <ProductsContextProvider>
@@ -52,6 +53,7 @@ const MainRoutes = () => {
             <Route path="/edit/:id" element={<EditProducts />} />
             <Route path="/auth" element={<Auth />} />
             <Route path="/buyProducts" element={<BuyProducts />} />
+            <Route path='/buy' element={<Buy/>}/>
           </Routes>
           <Footer />
         </BrowserRouter>
