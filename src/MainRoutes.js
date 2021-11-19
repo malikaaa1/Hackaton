@@ -1,30 +1,3 @@
-// import React from 'react';
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import Header from './Components/Header/Header'
-// import Home from './Components/Home/Home';
-// import AddProduct from './Components/Products/AddProduct';
-// import EditProducts from './Components/Products/EditProducts';
-// import ProductDetails from './Components/Products/ProductDetails';
-// import ProductsContextProvider from './contexts/ProductContext';
-
-// const MainRoutes = () => {
-//     return (
-//       <ProductsContextProvider>
-//       <BrowserRouter>
-//       <Header />
-//       <Routes>
-//         <Route path="/" element={<Home />}/>
-//           <Route path="/product/:id" element={<ProductDetails />}/>
-//           <Route path="/addProduct" element={<AddProduct/>}/>
-//           <Route path="/edit/:id" element={<EditProducts />}/>
-//       </Routes>
-//       </BrowserRouter>
-//       </ProductsContextProvider>
-//     );
-// };
-
-// export default MainRoutes;
-
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Cart from "./Components/Cart/Cart";
